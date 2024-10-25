@@ -12,6 +12,7 @@ Esta POC foca no uso do Next.js 14+. As principais características desta estrut
 - Componentização: Componentes reutilizáveis, como Header.tsx, são organizados em app/components/, promovendo a modularização e facilitando a manutenção.
 - Estilo CSS(Global e Módulo): Suporte a CSS Modules para estilos locais em componentes e a estilos globais, com "globals.css", para configurações universais de estilo.
 - Fontes Customizadas: Fontes personalizadas estão localizadas em "fonts/", permitindo customização visual otimizada.
+  
 A estrutura Next.js 14+ permite desenvolver aplicações React de maneira eficiente, promovendo performance e simplicidade.
 
 ## Componentes Simples (Sem Estado)
