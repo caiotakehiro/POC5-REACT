@@ -2,7 +2,7 @@
 ## Caio Takehiro Magnoli Igari 10437809
 ### Sistemas de Informação, 02J L12
 ## POC 5-React
-Esta Prova de Conceito mostra como utilizar o o funcionamento de alguns conceitos de REACT, usando Next.js, eles são .
+Esta Prova de Conceito mostra como utilizar o o funcionamento de alguns conceitos de REACT, usando Next.js. Eles são:
 
 ## Estrutura Next.js 14+
 Esta POC foca no uso do Next.js 14+. As principais características desta estrutura são:
@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
 ```
 O código acima é um componente simples pois assim como ja foi dito ele não possuí ciclo de vida, ele apenas recebe uma prop e a renderiza dentro de umm elemento.
 ## Estilo CSS (Global e Módulo)
-- Global
+- Global:
 Os estilos definidos no CSS global são aplicados a toda a aplicação, ou seja, eles afetam qualquer elemento que corresponda ao seletor CSS, independentemente de onde esse elemento esteja, a seguir tem um exemplo de como aplicamos o estilo global em nosso trabalho.
 ```css
 /* src/styles/globals.css */
@@ -43,8 +43,8 @@ body {
   }
 ```
 
-- Módulo
-os estilos definidos em um módulo CSS afetam apenas o componente no qual são importados. Isso evita interferência de estilos entre componentes, a seguir tem um exeplo de como foi aplicado o estilo no trabalho.
+- Módulo:
+Os estilos definidos em um módulo CSS afetam apenas o componente no qual são importados. Isso evita interferência de estilos entre componentes, a seguir tem um exeplo de como foi aplicado o estilo no trabalho.
 ```css
 /* src/components/Header.module.css */
 .header {
