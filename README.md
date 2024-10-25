@@ -5,7 +5,14 @@
 Esta Prova de Conceito mostra como utilizar o o funcionamento de alguns conceitos de REACT, usando Next.js, eles são .
 
 ## Estrutura Next.js 14+
+Esta POC foca no uso do Next.js 14+. As principais características desta estrutura são:
 
+- Roteamento Automático: O diretório "app/" organiza as páginas e rotas de forma automática.
+- Renderização Híbrida: Suporte a renderização no lado do servidor (SSR) e geração de páginas estáticas (SSG), permitindo otimização de desempenho de acordo com a necessidade de cada página.
+- Componentização: Componentes reutilizáveis, como Header.tsx, são organizados em app/components/, promovendo a modularização e facilitando a manutenção.
+- Estilo CSS(Global e Módulo): Suporte a CSS Modules para estilos locais em componentes e a estilos globais, com "globals.css", para configurações universais de estilo.
+- Fontes Customizadas: Fontes personalizadas estão localizadas em "fonts/", permitindo customização visual otimizada.
+A estrutura Next.js 14+ permite desenvolver aplicações React de maneira eficiente, promovendo performance e simplicidade.
 
 ## Componentes Simples (Sem Estado)
 Os componentes simples são simples porém muito eficientes, eles são utilizados apenas para renderizam de dados estáticos. Seu funcionamento é bem claro, ele recebe uma propriedade e em seguida retornam JSX, durante essa POC esse elemento é aplicado várias vezes como por exemplo no componente Header, que tem a função de exibir o titulo da página
@@ -49,6 +56,12 @@ os estilos definidos em um módulo CSS afetam apenas o componente no qual são i
     font-size: 24px;
   }
 ```
+## Como acessar o resultado
+Para acessar o resultado do código apresentado ao longo desse ReadMe basta seguir os seguintes passos:
+![380027049-61c8c4d4-bbfb-45d7-99aa-8ca96f4d0488](https://github.com/user-attachments/assets/79bf4e7f-0c66-4018-9cc8-7053f16bdeea)
+- Acessar o terminal do arquivo
+- Digitar " npm run dev "
+- "ctlr + click" no link ao lado de "- Local:"
 
 
 ## Resultado visual 
@@ -56,5 +69,5 @@ O código apresentado durante esse ReadMe, quando executado resulta na imagem a 
 ![380009896-c9a1ccb3-bfd5-4a72-94ea-5a22d5001252](https://github.com/user-attachments/assets/f6c49652-375c-40df-a873-0114086d2d1d)
 
 ## Conclusão 
-Esta POC é uma demonstração de aplicação de conceitos fundamentais do React, visto que o projeto está em Next.js 14, utiliza componentes simples sem estado e o uso de estilos com CSS global e CSS Modules.
+Esta POC é uma demonstração de aplicação de conceitos fundamentais do React, visto que o projeto usa elementos da estrutura Next.js 14, utiliza componentes simples sem estado e o uso de estilos como CSS global e módulo.
 
